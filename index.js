@@ -34,6 +34,7 @@ var theFunk = funkyFunction();
 //it enabled funkyFunction's argu, but not anonymous func;
 
 theFunk;
+
 theFunk();
 
 
