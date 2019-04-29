@@ -35,6 +35,8 @@ var theFunk = funkyFunction = function(){
 let innerFunc = function(){
   return "FUNKY!"
 }
+innerFunc();
+
 theFunk();
 
 
