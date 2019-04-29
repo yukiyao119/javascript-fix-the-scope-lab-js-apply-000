@@ -35,6 +35,7 @@ var funkyFunction = function() {
 // innerFunc();
 
 var theFunk = funkyFunction();
-theFunk();
+//theFunk now is the returned anonymous function name inside funkyFunction
+funkyFunction(theFunk());
 
 
