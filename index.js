@@ -32,4 +32,4 @@ let innerFunc = function() {
     return "FUNKY!"
   }
 
-var theFunk = funkyFunction(innerFunc());
+var theFunk = funkyFunction(innerFunc);
