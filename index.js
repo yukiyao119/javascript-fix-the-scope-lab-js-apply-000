@@ -32,7 +32,6 @@ theFunk = (funkyFunction())();
 //theFunk now is the returned anonymous function name inside funkyFunction
 //it enabled funkyFunction's argu, but not anonymous func;
 
-theFunk();
 
 
 
