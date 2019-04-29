@@ -32,6 +32,7 @@ var theFunk = funkyFunction();
 //theFunk now is the returned anonymous function name inside funkyFunction
 //the stringified version of `anonymous()`
 //it enabled funkyFunction's argu, but not anonymous func;
+
 theFunk;
 theFunk();
 
