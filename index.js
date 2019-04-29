@@ -31,11 +31,7 @@ var funkyFunction = function() {
 var theFunk = funkyFunction;
 //theFunk now is the returned anonymous function name inside funkyFunction
 
-let innerFunc = function(){
-  return "FUNKY!"
-}
 funkyFunction();
 
-theFunk();
 
 
