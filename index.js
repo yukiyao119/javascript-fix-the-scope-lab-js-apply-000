@@ -20,7 +20,7 @@ function add2(n) {
 }
 
 var funkyFunction = function() {
-  return function innerFunc () {
+  return function() {
     return "FUNKY!"
   }
 }
@@ -28,9 +28,7 @@ var funkyFunction = function() {
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
 
-funkyFunction();
-
-theFunk = funkyFunction();
+theFunk = (funkyFunction())();
 //theFunk now is the returned anonymous function name inside funkyFunction
 //it enabled funkyFunction's argu, but not anonymous func;
 
