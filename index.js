@@ -33,7 +33,7 @@ var theFunk = funkyFunction("FUNKY!");
 //the stringified version of `innerFunc()`
 //it enabled funkyFunction's argu, but not anonymous func;
 
-theFunk("FUNKY!");
+theFunk();
 
 
 
