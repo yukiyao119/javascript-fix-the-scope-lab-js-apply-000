@@ -31,11 +31,9 @@ var funkyFunction = function() {
 let innerFunc = function() {
     return "FUNKY!"
   }
+  
+innerFunc();
 
-var theFunk = funkyFunction(innerFunc){
-  innerFunc();
-}
-
-theFunk;
+//var theFunk = funkyFunction();
 
 
