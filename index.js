@@ -29,7 +29,7 @@ var funkyFunction = function() {
 // NOTE: you only need to modify the code below this line.
 
 var theFunk = funkyFunction = function(){
-  return innerFunc();
+  innerFunc();
 };
 //theFunk now is the returned anonymous function name inside funkyFunction
 let innerFunc = function(){
