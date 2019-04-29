@@ -33,7 +33,6 @@ var theFunk = funkyFunction();
 //the stringified version of `anonymous()`
 //it enabled funkyFunction's argu, but not anonymous func;
 
-
 theFunk();
 
 
