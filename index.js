@@ -28,9 +28,13 @@ var funkyFunction = function() {
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
 
+let innerFunc = function(){
+  return "FUNKY!"
+}
+innerFunc();
 
 var theFunk = funkyFunction();
 //theFunk now is the returned anonymous function name inside funkyFunction
-theFunk('FUNKY!');
+
 
 
